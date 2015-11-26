@@ -1,9 +1,10 @@
-export * from '../src/core/linker/interfaces';
+export {LifecycleHooks, LIFECYCLE_HOOKS_VALUES} from '../src/core/linker/interfaces';
 export * from '../src/core/metadata';
 export * from '../src/core/util';
 export * from '../src/core/di';
 export * from '../src/common/pipes';
 export * from 'angular2/src/facade/facade';
+export {EventEmitter, Observable} from 'angular2/src/facade/facade';
 // Do not export application in web_worker,
 // web_worker exports its own
 // export * from '../src/core/application';

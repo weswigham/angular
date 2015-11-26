@@ -15,7 +15,7 @@ export {HashLocationStrategy} from './src/router/hash_location_strategy';
 export {PathLocationStrategy} from './src/router/path_location_strategy';
 export {Location} from './src/router/location';
 export * from './src/router/route_config_decorator';
-export * from './src/router/route_definition';
+export {RouteDefinition, ComponentDefinition} from './src/router/route_definition';
 export {OnActivate, OnDeactivate, OnReuse, CanDeactivate, CanReuse} from './src/router/interfaces';
 export {CanActivate} from './src/router/lifecycle_annotations';
 export {Instruction, ComponentInstruction} from './src/router/instruction';

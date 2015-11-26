@@ -1,4 +1,5 @@
 export * from 'angular2/src/facade/facade';
+export {EventEmitter, Observable} from 'angular2/src/facade/facade';
 export * from '../src/core/zone';
 export * from "../src/web_workers/ui/application";
 export {
